@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,57 +47,61 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GiaHanHopDong.cs">
+    <Compile Include="BLL\TangBLL.cs" />
+    <Compile Include="DAL\DataHelper.cs" />
+    <Compile Include="DAL\TangDAL.cs" />
+    <Compile Include="DTO\Tang.cs" />
+    <Compile Include="GUI\GiaHanHopDong.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GiaHanHopDong.Designer.cs">
+    <Compile Include="GUI\GiaHanHopDong.Designer.cs">
       <DependentUpon>GiaHanHopDong.cs</DependentUpon>
     </Compile>
-    <Compile Include="QuanLyCaoOc.cs">
+    <Compile Include="GUI\QuanLyCaoOc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QuanLyCaoOc.Designer.cs">
+    <Compile Include="GUI\QuanLyCaoOc.Designer.cs">
       <DependentUpon>QuanLyCaoOc.cs</DependentUpon>
     </Compile>
-    <Compile Include="QuanLyHopDongVaKH.cs">
+    <Compile Include="GUI\QuanLyHopDongVaKH.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QuanLyHopDongVaKH.Designer.cs">
+    <Compile Include="GUI\QuanLyHopDongVaKH.Designer.cs">
       <DependentUpon>QuanLyHopDongVaKH.cs</DependentUpon>
     </Compile>
-    <Compile Include="ManHinhChinh.cs">
+    <Compile Include="GUI\ManHinhChinh.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ManHinhChinh.Designer.cs">
+    <Compile Include="GUI\ManHinhChinh.Designer.cs">
       <DependentUpon>ManHinhChinh.cs</DependentUpon>
     </Compile>
-    <Compile Include="QuanLyPhong.cs">
+    <Compile Include="GUI\QuanLyPhong.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QuanLyPhong.Designer.cs">
+    <Compile Include="GUI\QuanLyPhong.Designer.cs">
       <DependentUpon>QuanLyPhong.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QuanLyTang.cs">
+    <Compile Include="GUI\QuanLyTang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QuanLyTang.Designer.cs">
+    <Compile Include="GUI\QuanLyTang.Designer.cs">
       <DependentUpon>QuanLyTang.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="GiaHanHopDong.resx">
+    <EmbeddedResource Include="GUI\GiaHanHopDong.resx">
       <DependentUpon>GiaHanHopDong.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="QuanLyCaoOc.resx">
+    <EmbeddedResource Include="GUI\QuanLyCaoOc.resx">
       <DependentUpon>QuanLyCaoOc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="QuanLyHopDongVaKH.resx">
+    <EmbeddedResource Include="GUI\QuanLyHopDongVaKH.resx">
       <DependentUpon>QuanLyHopDongVaKH.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ManHinhChinh.resx">
+    <EmbeddedResource Include="GUI\ManHinhChinh.resx">
       <DependentUpon>ManHinhChinh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="QuanLyPhong.resx">
+    <EmbeddedResource Include="GUI\QuanLyPhong.resx">
       <DependentUpon>QuanLyPhong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -108,7 +113,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="QuanLyTang.resx">
+    <EmbeddedResource Include="GUI\QuanLyTang.resx">
       <DependentUpon>QuanLyTang.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -124,5 +129,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

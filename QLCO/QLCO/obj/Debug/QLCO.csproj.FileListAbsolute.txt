@@ -1,0 +1,15 @@
+C:\Users\VU MINH CHIEN\Desktop\qlco\QLCO\QLCO\obj\Debug\QLCO.csprojAssemblyReference.cache
+C:\Users\VU MINH CHIEN\Desktop\qlco\QLCO\QLCO\obj\Debug\QLCO.GiaHanHopDong.resources
+C:\Users\VU MINH CHIEN\Desktop\qlco\QLCO\QLCO\obj\Debug\QLCO.QuanLyCaoOc.resources
+C:\Users\VU MINH CHIEN\Desktop\qlco\QLCO\QLCO\obj\Debug\QLCO.QuanLyHopDongVaKH.resources
+C:\Users\VU MINH CHIEN\Desktop\qlco\QLCO\QLCO\obj\Debug\QLCO.ManHinhChinh.resources
+C:\Users\VU MINH CHIEN\Desktop\qlco\QLCO\QLCO\obj\Debug\QLCO.QuanLyPhong.resources
+C:\Users\VU MINH CHIEN\Desktop\qlco\QLCO\QLCO\obj\Debug\QLCO.Properties.Resources.resources
+C:\Users\VU MINH CHIEN\Desktop\qlco\QLCO\QLCO\obj\Debug\QLCO.QuanLyTang.resources
+C:\Users\VU MINH CHIEN\Desktop\qlco\QLCO\QLCO\obj\Debug\QLCO.csproj.GenerateResource.cache
+C:\Users\VU MINH CHIEN\Desktop\qlco\QLCO\QLCO\obj\Debug\QLCO.csproj.CoreCompileInputs.cache
+C:\Users\VU MINH CHIEN\Desktop\qlco\QLCO\QLCO\bin\Debug\QLCO.exe.config
+C:\Users\VU MINH CHIEN\Desktop\qlco\QLCO\QLCO\bin\Debug\QLCO.exe
+C:\Users\VU MINH CHIEN\Desktop\qlco\QLCO\QLCO\bin\Debug\QLCO.pdb
+C:\Users\VU MINH CHIEN\Desktop\qlco\QLCO\QLCO\obj\Debug\QLCO.exe
+C:\Users\VU MINH CHIEN\Desktop\qlco\QLCO\QLCO\obj\Debug\QLCO.pdb
